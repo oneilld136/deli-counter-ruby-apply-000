@@ -10,6 +10,7 @@ def line(x)
 end
     puts "The line is currently: #{line_array.join(', ')}"  // 'Name,Index'
 end
+end
 def take_a_number (katz_deli, name)
   katz_deli['name'].push(name)
   p = katz_deli.index(name)+1
