@@ -9,12 +9,11 @@ def line(x)
       line_array.push("#{index}. #{name}")
     end
   end
-  puts "The line is currently: #{line_array.join(', ')}"
+  puts "The line is currently: #{line_array.join(' ')}"
 end
 
 def take_a_number (katz_deli, name)
-  katz_deli['name'].push(name)
-  p = katz_deli.index(name)+1
+  katz_deli.push(name)
   puts "Welcome,#{name}. You are number #{katz_deli.length}."
 end
 
