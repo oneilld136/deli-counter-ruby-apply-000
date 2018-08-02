@@ -11,11 +11,13 @@ def line(x)
   end
   puts "The line is currently: #{line_array.join(', ')}"  // 'Name,Index'
 end
+
 def take_a_number (katz_deli, name)
   katz_deli['name'].push(name)
   p = katz_deli.index(name)+1
   puts "Welcome,#{name}. You are number #{katz_deli.length}."
 end
+
 def now_serving(array)
   if array.empty?
     puts "There is nobody waiting to be served!"
